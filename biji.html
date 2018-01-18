@@ -1,17 +1,60 @@
 js是一种弱类型的语言 定义变量 var = ；
                                 不能用数字中文 -
                                 区分大小写
-+ 会进行字符串拼接  -  会进行运算    不能运算显示NaN（not a number
++ 会进行字符串拼接  -  会进行运算    不能运算显示NaN（not a number）
 js的基本数据类型 1.number     数字
                  2.string     字符串  ---带引号的
-                 3.boolean    true/false
+                 3.boolean    true/false  运算时true相当于1 false相当于0
                  4.undefind   未定义值
                  5.null
 查询变量    console.log(a)；
 
-函数
+函数 名字（）；
 查询变量类型  typeof      方法1  console.log(typeof a)；
                           方法2  console.log(typeof(a))；
 辅助调试 弹框 alert       alert（a）；
-
+弹框 请输入 你好  有返回值      var result = prompt（"请输入","你好"）;
+                                conole.log（resule）
  = 赋值   == 判断值是否相等   === 判断力类型是否相等
+console.log（5/0）  →   infinity 无限的
+&& 与
+|| 或
+！ 非
+类型转换
+其他类型转化成数字型  *1
+其他类型转化成字符串  +""
+
+
+判断语句
+if（）{
+}
+else{
+}
+
+三目运算符  console.log(2<4?"yes":"no");
+
+switch语句
+switch(condition){ //判断类型 和值
+case "4":
+alert("c的值是4");
+break;//跳出循环
+case "3":
+alert("c的值大于等于3");
+break;
+case "2":
+alert("c的值大于等于2");
+break;
+default://  没有匹配的跳出默认值
+alert("默认值");
+
+
+
+
+
+
+
+变量命名规则
+整型 i开头    int
+浮点型 f开头   float
+字符串 s开头   string
+布尔型 b开头   boolean
