@@ -4,4 +4,3 @@
 document.write("<h1>hello world</h1>");
 document.write("<h1>hello world</h1>");
 document.write("<h1>hello world</h1>");
-document.write("<h1>hello world</h1>");
